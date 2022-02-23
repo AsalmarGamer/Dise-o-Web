@@ -36,9 +36,9 @@
                     <span>Indique su nombre</span>
                     <input type ="text" id="nombre" placeholder="Nombre" name="nombre" required>
                 </label>
-                <label for="telefono">}
+                <label for="telefono">
                     <span>Indique su número de teléfono</span>
-                    <input type="date" id="nacimiento" name="nacimiento">
+                    <input type="text" id="nacimiento" name="nacimiento">
                 </label>
             </form>
         </section>
@@ -46,13 +46,13 @@
             <h1>Formulario2</h1>
             <form action="">
                 <span>Seleccione el proyecto que quiere ver</span>
-                <input list="proyectos" id="proyectos" name="proyectos">
-                <datalist id="proyectos">
+                <input list="proyectos">
+                <select id="proyectos">
                     <option value="Taller 2"></option>
                     <option value="Taller 3"></option>
                     <option value="Taller 4"></option>
                     <option value="Taller 5"></option>
-                </datalist> 
+                </select> 
                 <span>Ingrese su correo electrónico para contactarlo</span>
                 <input type="text" id="correo" name="correo" minlength="5" size="20">
             </form>
