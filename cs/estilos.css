@@ -10,10 +10,14 @@ html{
 :root{
     --prime-font-size: 2rem;
     --prime-color-boxes: #D5B9B7;
+    --prime-color-background: #594E4E;
+    --prime-color-titles: #BDA4A4;
+    --prime-color-secondary: #DAD3D3;
 }
 
 body{
     font-size: 2rem;
+    background-color: var(--prime-color-background);
 }
 
 
@@ -29,6 +33,7 @@ body{
     width: 25rem;
     height: 8rem;
     background-color: var(--prime-color-boxes);
+    border: 1rem solid var(--prime-color-secondary);
     align-items: center;
     justify-content: center;
 }
@@ -44,6 +49,7 @@ img{
 h1{
     font-size: var(--prime-font-size);
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--prime-color-titles);
 }
 main{
     padding: 10px;
