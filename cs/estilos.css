@@ -1,13 +1,50 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --prime-font-size: 2rem;
+    --prime-color-boxes: #D5B9B7;
+}
+
 body{
-    padding: 5%;
+    font-size: 2rem;
 }
-.menu {
-    margin-right: 2rem;
-    cursor: pointer;
+
+
+.menu{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div_principales{
+    display: flex;
+    width: 25rem;
+    height: 8rem;
+    background-color: var(--prime-color-boxes);
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    border: 2rem solid black;
+    float: left;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 10px;
+}
+
+h1{
+    font-size: var(--prime-font-size);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    padding: 10px;
 }
