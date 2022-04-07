@@ -48,3 +48,10 @@ h1{
 main{
     padding: 10px;
 }
+.sections_1{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+p{
+    line-height: 3rem;
+}
