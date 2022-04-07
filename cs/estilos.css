@@ -39,6 +39,8 @@ body{
 }
 
 img{
+    display: flex;
+    flex-direction: column;
     border: 2rem solid black;
     float: left;
     border-radius: 2rem;
