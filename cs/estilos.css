@@ -5,43 +5,51 @@
 
 html{
     font-size: 62.5%;
-    margin: 5rem;
 }
 
 :root{
-    --prime-font-size: 3rem;
-    --prime-color-boxes: #da7c74;
-    --prime-color-background: #a8a68a;
-    --prime-color-titles: #3d3d3d;
-    --prime-color-secondary: #e0c26d;
+    --prime-font-size: 2rem;
+    --prime-color-boxes: #D5B9B7;
+    --prime-color-background: #594E4E;
+    --prime-color-titles: #BDA4A4;
+    --prime-color-secondary: #DAD3D3;
 }
 
 body{
-    font-size: 3rem;
+    margin-top: 4rem;
+    font-size: 2rem;
     background-color: var(--prime-color-background);
 }
 
-a{
-    text-decoration: none;
-    color: var(--prime-color-secondary);
+header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(235, 200, 148);
 }
-
 
 .menu{
-    font-size: --prime-font-size;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    font-size: 3rem;
 }
 
-.div_principales{
+ul{
+    list-style-type: none;
     display: flex;
-    width: 25rem;
-    height: 8rem;
+}
+
+li{
+    text-align: center;
+    width: 100%;
+}
+
+li a{
+    display: inline-block;
+    padding: 10px;
     background-color: var(--prime-color-boxes);
     border: 1rem solid var(--prime-color-secondary);
-    align-items: center;
-    justify-content: center;
+    width: 25rem;
+    height: 4rem;
+    text-decoration: none;
+    color: white;
 }
 
 img{
@@ -55,7 +63,7 @@ img{
 }
 
 h1{
-    font-size: 10rem;
+    font-size: var(--prime-font-size);
     font-family: Arial, Helvetica, sans-serif;
     color: var(--prime-color-titles);
 }
@@ -69,6 +77,31 @@ main{
 p{
     line-height: 3rem;
 }
-.contacto{
-    background-color: var(--prime-color-background);
+
+@media (max-width: 880px) {
+    li a{
+        width: 18rem;
+        font-size: 2.5rem;
+    }   
+}
+
+@media (max-width: 675px) {
+    li a{
+        width: 14rem;
+        font-size: 2rem;
+    }   
+}
+
+@media (max-width: 560px) {
+    li a{
+        width: 10rem;
+        font-size: 2rem;
+    }   
+}
+
+@media (max-width: 420px) {
+    li a{
+        width: 8rem;
+        font-size: 1.7rem;
+    }   
 }
