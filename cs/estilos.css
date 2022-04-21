@@ -9,10 +9,10 @@ html{
 
 :root{
     --prime-font-size: 3rem;
-    --prime-color-boxes: #D5B9B7;
-    --prime-color-background: #594E4E;
+    --prime-color-boxes: #DEDBFF;
+    --prime-color-background: #DAD4E8;
     --prime-color-titles: #BDA4A4;
-    --prime-color-secondary: #DAD3D3;
+    --prime-color-secondary: #E8E7D3;
 }
 
 body{
@@ -23,7 +23,7 @@ body{
 header{
     width: 100%;
     position: fixed;
-    background-color: rgb(235, 200, 148);
+    background-color: var(--prime-color-secondary);
 }
 
 .menu{
@@ -60,7 +60,7 @@ li a{
     width: 25rem;
     height: 4rem;
     text-decoration: none;
-    color: white;
+    color: var(--prime-color-titles);
 }
 
 img{
