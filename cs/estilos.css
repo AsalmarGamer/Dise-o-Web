@@ -8,7 +8,7 @@ html{
 }
 
 :root{
-    --prime-font-size: 2rem;
+    --prime-font-size: 3rem;
     --prime-color-boxes: #D5B9B7;
     --prime-color-background: #594E4E;
     --prime-color-titles: #BDA4A4;
@@ -16,7 +16,6 @@ html{
 }
 
 body{
-    margin-top: 4rem;
     font-size: 2rem;
     background-color: var(--prime-color-background);
 }
@@ -28,7 +27,11 @@ header{
 }
 
 .menu{
-    font-size: 3rem;
+    font-size: var(--prime-font-size);
+}
+
+.divHabilidades{
+    display: flex;
 }
 
 ul{
@@ -63,19 +66,30 @@ img{
 }
 
 h1{
-    font-size: var(--prime-font-size);
+    font-size: 8rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--prime-color-titles);
 }
+
+h4{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--prime-color-secondary);
+}
+
 main{
     padding: 10px;
 }
 .sections_1{
     margin-bottom: 4rem;
-    margin-top: 4rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
 }
 p{
-    line-height: 3rem;
+    font-size: 4rem;
+    line-height: normal;
+    letter-spacing: 2px;
+
 }
 
 @media (max-width: 880px) {
